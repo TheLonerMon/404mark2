@@ -1,0 +1,48 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/lostatsea.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.error-message {
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the heading and text */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Style a back button */
+.back-button {
+    margin-top: 20px;
+    background-color: ;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
