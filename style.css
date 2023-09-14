@@ -7,8 +7,8 @@ body, html {
 
 .error-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
     height: 100vh;
     background-image: url('images/lostatsea.jpg'); 
     background-size: cover;
@@ -18,7 +18,8 @@ body, html {
 .error-message {
     padding: 20px;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
+    color: white;
 }
 
 /* Style the heading and text */
@@ -34,7 +35,7 @@ p {
 /* Style a back button */
 .back-button {
     margin-top: 20px;
-    background-color: ;
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
 }
 
 
