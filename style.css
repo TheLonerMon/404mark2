@@ -5,10 +5,11 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-.error-container {
-    display: flex;
-    justify-content: left;
-    align-items: top;
+
+.error {
+    display: block;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: url('images/lostatsea.jpg'); 
     background-size: cover;
@@ -18,15 +19,24 @@ body, html {
 .error-message {
     padding: 20px;
     border-radius: 5px;
-    text-align: left;
+    text-align: center;
     color: white;
 }
 
 /* Style the heading and text */
-h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+@font-face {
+    font-family: "SALTWATER TYPE ITALIC PERSONAL";
+    src: url("saltwater-type-italic-personal-font/SaltwatertypeitalicpersonalI-mLegG.otf");
 }
+.four-o-four {
+    display: block;
+    justify-content: top;
+    color:blue;
+    font-family: "SALTWATER TYPE ITALIC PERSONAL";
+    font-size: 200px;
+   
+}
+
 
 p {
     font-size: 18px;
