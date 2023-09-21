@@ -2,58 +2,133 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-}
-
-
-.error {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Blinker';
     background-image: url('images/lostatsea.jpg'); 
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.error-message {
-    padding: 20px;
-    border-radius: 5px;
+
+.logo {
+    transform: rotate(59deg);
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 2px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.name {
+    font-style: italic;
+    margin-top: 32px;
+    
+}
+
+.header {
+    display: flex;
+    padding: 2px;
     text-align: center;
-    color: white;
+    color: #ce3aff;
+    font-size: 30px;
+    background: linear-gradient(to right, #1BE7FF,#FFB845,#F97698);
+              
+    
 }
 
-/* Style the heading and text */
-@font-face {
-    font-family: "SALTWATER TYPE ITALIC PERSONAL";
-    src: url("saltwater-type-italic-personal-font/SaltwatertypeitalicpersonalI-mLegG.otf");
+h2{
+    padding: 15px;
+    font-weight: 400;
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+    border-radius: 40px;
 }
+
+.menu {
+    
+    margin-top: 15px;
+    margin-left: 12px;
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    color: #ff6ec7;
+    font-size: 20px;
+}
+
+.message {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .four-o-four {
     display: block;
     justify-content: top;
-    color:blue;
-    font-family: "SALTWATER TYPE ITALIC PERSONAL";
     font-size: 200px;
-   
+    margin: 0;
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 70px;
+    background: -webkit-linear-gradient(360deg,#1BE7FF, #ff6ec7);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 
 p {
     font-size: 18px;
+    color:#1BE7FF;
 }
 
-/* Style a back button */
+h3{
+    font-size: 30px;
+    color:#ce3aff;
+}
+
+
 .back-button {
-    margin-top: 20px;
-    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
-}
-
-
-a {
-    color: #007bff;
+    background-color: #ff6ec7;
+    color: white; 
+    border: none; 
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+.button{
+    color:#ff6ec7; 
+    border: none; 
+    cursor: pointer; 
+    transition: color 0.4s ease;
+    text-decoration: none;
+}
+
+.button:hover {
+    color:#ce3aff;
+}
+
+.back-button:hover {
+    
+    background-color: #1BE7FF;
+}
+
+footer {
+
+    background-color: #ce3aff; 
+    color: #fff;
+    padding: 18px; 
+    opacity: 0.4;
+}
+
+.bottom {
+    max-width: 800px; 
+    margin: 0 auto;
+    color: white;
+}
+
+h1 {
+    margin:0 !important;
 }
